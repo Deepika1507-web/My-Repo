@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+// Function to take an integer input and print it
+public static void printNumber() {
+Scanner scanner = new Scanner(System.in); // Create Scanner object
+System.out.print("Enter an integer: "); // Prompt user for input
+int number = scanner.nextInt(); // Read integer input
+System.out.println("You entered: " + number); // Print the input
+scanner.close(); // Close the scanner
+}
+
+public static void main(String[] args) {
+printNumber(); // Call the function
+}
+}
