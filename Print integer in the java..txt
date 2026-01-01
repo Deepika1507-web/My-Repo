@@ -9,8 +9,3 @@ int number = scanner.nextInt(); // Read integer input
 System.out.println("You entered: " + number); // Print the input
 scanner.close(); // Close the scanner
 }
-
-public static void main(String[] args) {
-printNumber(); // Call the function
-}
-}
